@@ -1,0 +1,135 @@
+.form-container
+{
+    width: 100%;
+    height: 97vh;
+    background-image: linear-gradient(to right top, #11a9c9, #219ae3, #857ee2, #cc50b6, #eb1267);
+}
+
+.form-container>div{
+    border-radius: 7px;
+    padding: 18px;
+    width: 70%;
+    background: rgb(255,255,255);
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
+.field
+{
+    margin: 20px;
+}
+
+.label
+{   
+    text-transform: uppercase;
+    font: 20px Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.field input
+{
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    width: 100%;
+    font-size: 18px;
+}
+
+.field input:focus
+{
+    outline: none;
+}
+
+form #button
+{
+    text-align: center;
+}
+
+form button
+{
+    border: 3px solid rgb(0, 132, 255);
+    font-size: 24px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+form button:hover
+{
+    border: 3px solid rgb(0, 132, 255);
+    background-color: white;
+    color: rgb(0, 132, 255);
+}
+
+button:focus
+{
+    outline: none;
+}
+
+form p
+{
+    font: 1em sans-serif;
+    color: red;
+}
+
+.cart-container
+{
+    width: 100%;
+    height: 97vh;
+    background-image: linear-gradient(to right top, #11a9c9, #219ae3, #857ee2, #cc50b6, #eb1267);
+}
+
+.cart-container>div{
+    border-radius: 20px;
+    width: 50%;
+    background: rgb(255,255,255);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+.cart-container table
+{
+    width: 100%;
+}
+
+.cart-container tr, .head
+{
+    display: grid;
+    grid-template-columns: 17% 16% 17% 17% 16% 16%;
+}
+
+.cart-container tbody td
+{
+    font: 20px Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cart-container tbody td, .head span
+{
+    padding: 8px;
+}
+
+.cart-container .head
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    font: 25px Verdana;
+    color: white;
+}
+
+.success
+{
+    font: 25px Arial;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    background: white;
+    color: rgb(0, 0, 0);
+    /* border: 3px solid green; */
+    width: 98%;
+}
